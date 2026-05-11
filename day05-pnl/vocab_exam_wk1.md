@@ -1,0 +1,10 @@
+LMP: Local marginal price. It represents the price of local area. An LMP is the sum of three components: the baseline system energy price, the cost of Congestion, and the cost of Marginal Loss.
+SCED: Security Constrained Economic Dispatch. The mathematical optimization software used by grid operators. Its job is to figure out the absolute cheapest way to deploy (dispatch) available power plants to meet electricity demand, while ensuring that no transmission lines are overloaded and the grid remains secure.
+INC-DEC: Increments and Decrements. Pure financial product used to arbitrage prices between Day-ahead and Real-price.
+RegD:Dynamic Regulation. RegD is a high-frequency, dynamic regulation signal designed primarily for fast-responding assets like battery storage and flywheels
+FTR: Financial Transmission Right. A financial contract that entitles the holder to a stream of revenues (or charges) based on the difference in congestion prices between two specific points on the grid in the Day-Ahead market.
+Mileage (in the PJM regulation context): A measurement of the total absolute distance a resource's output moves up and down while following the regulation signal. Fast-moving RegD resources (like batteries) constantly zig-zag and rack up a lot of "mileage" compared to traditional, slow-moving generators (which follow the "RegA" signal). PJM compensates resources with a "mileage payment" for this rapid performance and wear-and-tear.
+Gate closure: The time which you cannot submit or change your bid
+Congestion: Physical congestion of electricity. Each cable has a capacity limit, and would reach congestion if the capacity is too high.
+Marginal loss: When electricity travels across long transmission lines, a small percentage of it is physically lost as heat due to electrical resistance.
+Two-settlement: DA and RT market
